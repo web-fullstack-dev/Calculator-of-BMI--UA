@@ -1,0 +1,13 @@
+.container {
+  background-color: hsl(203, 92%, 75%);
+  padding: 20px ;
+  margin: 20px auto;
+  width: 600px;
+  border: 6px solid hsl(0, 87%, 92%);
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 350px;
+  }
+}
