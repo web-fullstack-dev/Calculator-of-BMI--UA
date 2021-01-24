@@ -3,7 +3,7 @@
   padding: 20px ;
   margin: 20px auto;
   width: 600px;
-  border: 6px solid hsl(0, 87%, 92%);
+  border: 8px solid hsl(0, 87%, 92%);
 }
 
 @media (max-width: 414px) {
