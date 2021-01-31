@@ -7,6 +7,30 @@
   margin: 15px;
 }
 
+@media (max-width: 411px) {
+  .section {
+    font-size: 16px;
+  }
+}
+
+.section__button {
+  background-color: hsl(0, 0%, 100%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
+  transition: 0.1s;
+}
+
+.section__button:hover {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.section__button--link {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
 .secrion__item--colorLightSlateGrey {
   border: 3px solid hsl(210, 14%, 53%);
   color:hsl(210, 14%, 53%)
