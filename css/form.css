@@ -85,7 +85,7 @@
   max-width: 100%;
 }
 
-@media (max-width: 414px){
+@media (max-width: 360px){
   .form__button {
     padding: 15px;
     margin: 10px;
