@@ -1,4 +1,4 @@
-# Simple calculator of BMI project
+# Calculator of BMI project
 
 ##### Added:
 1. Section "Your data" (your height and weight)
