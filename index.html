@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple calculator BMI</title>
+  <title>Калькулятор ІМТ</title>
   <link rel="icon" href="icon/bathroom-scale.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
@@ -19,54 +19,54 @@
     PL
     EN
     <form class="js-form">
-      <p class="form__paragraph--header">Count your BMI!</p>
+      <p class="form__paragraph--header">Порахуйте свій ІМТ</p>
       <fieldset class="form__fieldset">
-        <legend class="form__fieldset--legend">Your data</legend>
+        <legend class="form__fieldset--legend">Ваші дані</legend>
         <p>
           <label class="form__label">
-            <span class="form__labelText">Your height</span> <span class="form__label--asterisk">*</span> :
-            <input class="js-height form__label--input" type="number" min="1" max="210" step="any" required> (cm)
+            <span class="form__labelText">Ваш зріст</span> <span class="form__label--asterisk">*</span> :
+            <input class="js-height form__label--input" type="number" min="1" max="210" step="any" required> (см)
           </label>
         </p>
 
         <p>
           <label class="form__label">
-            <span class="form__labelText">Your weight</span> <span class="form__label--asterisk">*</span> :
-            <input class="js-weight form__label--input" type="number" min="1" max="130" step="any" required> (kg)
+            <span class="form__labelText">Ваша вага</span> <span class="form__label--asterisk">*</span> :
+            <input class="js-weight form__label--input" type="number" min="1" max="130" step="any" required> (кг)
           </label>
         </p>
       </fieldset>
       <section class="section__form--data">
         <ol class="section__orderedList--data">
-          <h1 class="section__header--data">Ranges of BMI values:</h1>
-          <li class="section--data">less than 16 - starvation</li>
-          <li class="section--data">16 - 16.99 - emaciation</li>
-          <li class="section--data">17 - 18.49 - underweight</li>
-          <li class="section--data section--data--colorLightSkyBlue">18.5 - 24.99 - correct value</li>
-          <li class="section--data">25 - 29.99 - overweight</li>
-          <li class="section--data">30 - 34.99 - obesity I degree</li>
-          <li class="section--data">35 - 39.99 - obesity II degree</li>
-          <li class="section--data">over 40 - extreme obesity</li>
+          <h1 class="section__header--data">Діапазони значень ІМТ:</h1>
+          <li class="section--data">менше 16 - голодування</li>
+          <li class="section--data">16 - 16.99 - схуднення</li>
+          <li class="section--data">17 - 18.49 - недобір ваги</li>
+          <li class="section--data section--data--colorLightSkyBlue">18.5 - 24.99 - правильне значення</li>
+          <li class="section--data">25 - 29.99 - надмірна вага</li>
+          <li class="section--data">30 - 34.99 - ожиріння I ступеня</li>
+          <li class="section--data">35 - 39.99 - ожиріння II ступеня</li>
+          <li class="section--data">старше 40 - крайнє ожиріння</li>
         </ol>
       </section>
       <p>
-        <button class="form__button">Count your BMI!</button>
+        <button class="form__button">Порахуйте свій ІМТ</button>
       </p>
     </form>
     <p class="bmi--paragraph">
-      Your BMI is: <strong class="js-bmi">N/A</strong>
+      Ваш ІМТ: <strong class="js-bmi">N/A</strong>
     </p>
     <section class="section secrion__item--colorLightSlateGrey">
-      <h1 class="section__header--data">BMI calculator</h1>
-      <p>The <strong>BMI</strong> (Body Mass Index) calculator gives everyone the opportunity to quickly and conveniently calculate their own body mass index. We calculate BMI by dividing body weight (in kilograms) by height squared (in meters). This indicator is primarily used to assess the risk of serious diseases: atherosclerosis, ischemic heart disease, stroke, and even cancer. Most of these diseases are related to obesity and that is why the BMI calculator is such a useful tool.</p>
+      <h1 class="section__header--data">Калькулятор ІМТ</h1>
+      <p>Калькулятор <strong>ІМТ</strong> (індексу маси тіла) дає можливість кожному швидко та зручно розрахувати власний індекс маси тіла. Ми розраховуємо ІМТ шляхом ділення маси тіла (у кілограмах) на зріст у квадраті (у метрах). Цей показник в першу чергу використовується для оцінки ризику серйозних захворювань: атеросклерозу, ішемічної хвороби серця, інсульту і навіть раку. Більшість із цих захворювань пов’язані з ожирінням, тому калькулятор ІМТ є таким корисним інструментом.</p>
     </section>
     <section class="section section__item--colorLightSkyBlueAndWhite">
-      <h1 class="section__header--data">What is BMI?</h1>
-      <p>BMI is one of the important indicators of our physical condition, but unfortunately it is not sufficient. A very important supplement to the BMI is the abdominal fat indicator - too high can mean dangerous abdominal obesity, even with a correct BMI! Moreover, paradoxically, scientific research shows that people who are slightly overweight are usually healthier and live longer than people with the so-called "correct weight". There are even voices that the threshold for excess weight arbitrarily set by the <strong>WHO</strong> (25) is too low.</p>
+      <h1 class="section__header--data">Що таке ІМТ?</h1>
+      <p>ІМТ є одним із важливих показників нашого фізичного стану, але, на жаль, цього недостатньо. Дуже важливим доповненням до ІМТ є показник абдомінального жиру - занадто високий показник може означати небезпечне абдомінальне ожиріння, навіть при правильному ІМТ! Більш того, як це не парадоксально, наукові дослідження показують, що люди з невеликою надмірною вагою зазвичай здоровіші і живуть довше, ніж люди з так званою «правильною вагою». Лунають навіть голоси, що поріг надмірної ваги, свавільно встановлений <strong>ВООЗ</strong> (25), занадто низький.</p>
     </section>
     <section class="section section__item--colorWhiteAndLightSkyBlue">
-      <h1 class="section__header--data">Remember</h1>
-        <p>The BMI calculator shows the approximate body fat content. For some people, BMI can lead to wrong conclusions. Physically active people, practicing sports, may have an overweight related to the muscle tissue and not the amount of fat in the body. Moreover, it is not recommended to use the BMI index to determine body weight for children up to 14 years of age and for pregnant women.</p>
+      <h1 class="section__header--data">Пам'ятайте</h1>
+        <p>Калькулятор ІМТ показує приблизний вміст жиру в організмі. Для деяких людей ІМТ може привести до неправильних висновків. Фізично активні люди, які займаються спортом, можуть мати надлишкову вагу, пов'язану з м'язовою тканиною, а не з кількістю жиру в організмі. Крім того, не рекомендується використовувати індекс ІМТ для визначення маси тіла дітям до 14 років і вагітним жінкам.</p>
     </section>
   </div>
   <script defer src="js/script.js"></script>
